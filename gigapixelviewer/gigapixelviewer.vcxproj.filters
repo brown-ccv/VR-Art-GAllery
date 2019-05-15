@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{53addcc3-7782-4540-99c7-e8fa1df802fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{d5e04704-fdc6-453f-bc7e-dda1be06d403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderProgram">
+      <UniqueIdentifier>{38000e7e-892d-4d97-b5f6-c3361aeeccc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d69e4fc0-2675-423f-a52c-29aa6c3208cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{d4d58f70-516b-4d37-86f6-fd011b34341f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GiGaPixelViewerVRApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\GLMLoader.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Texture.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\VertexBuffer.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram\ShaderProgram.h">
+      <Filter>ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="TIFFHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TIFFTileHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WallMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenTileMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GiGaPixelViewerVRApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\GLMLoader.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Texture.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\VertexBuffer.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram\ShaderProgram.cpp">
+      <Filter>ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="TIFFHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TIFFTileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WallMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenTileMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\renderToQuad.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\renderToQuad.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="config\default.minvr">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\desktop.minvr">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\HTC_Vive.minvr">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\stereo.minvr">
+      <Filter>config</Filter>
+    </None>
+    <None Include="Shaders\fsq.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\fsq.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\simpleShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\simpleShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\lineShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\lineShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\pointShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\pointShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
